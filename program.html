@@ -223,196 +223,217 @@
       <!-- PROGRAM HERO -->
       <div style="background: white; border-bottom: 1px solid #e5e7eb">
         <div style="max-width: 1200px; margin: 0 auto; padding: 32px 32px 0">
-          <!-- Cover image -->
-          <div
-            style="
-              position: relative;
-              height: 260px;
-              border-radius: 20px;
-              overflow: hidden;
-            "
-          >
-            <img
-              src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=1200&h=520&fit=crop"
-              style="width: 100%; height: 100%; object-fit: cover"
-              alt="Counseling session"
-            />
-            <div
-              style="
-                position: absolute;
-                inset: 0;
-                background: linear-gradient(
-                  180deg,
-                  rgba(15, 15, 26, 0) 40%,
-                  rgba(15, 15, 26, 0.55) 100%
-                );
-              "
-            ></div>
-            <span
-              style="
-                position: absolute;
-                top: 18px;
-                left: 18px;
-                background: #7c3aed;
-                color: white;
-                font-size: 12px;
-                font-weight: 700;
-                padding: 5px 13px;
-                border-radius: 9999px;
-              "
-              >Mental Health</span
-            >
-            <span
-              style="
-                position: absolute;
-                top: 18px;
-                right: 18px;
-                background: rgba(255, 255, 255, 0.92);
-                color: #0d9488;
-                font-size: 12px;
-                font-weight: 700;
-                padding: 5px 13px;
-                border-radius: 9999px;
-                display: flex;
-                align-items: center;
-                gap: 6px;
-              "
-            >
-              <span
-                style="
-                  width: 8px;
-                  height: 8px;
-                  border-radius: 50%;
-                  background: #0d9488;
-                  display: inline-block;
-                "
-              ></span
-              >Open now · until 8 PM
-            </span>
-          </div>
-          <!-- Title row -->
+          <!-- Top section: square image + title/details side by side -->
           <div
             style="
               display: flex;
-              justify-content: space-between;
-              align-items: flex-end;
-              gap: 24px;
-              padding: 24px 0 20px;
+              gap: 32px;
+              align-items: flex-start;
               flex-wrap: wrap;
             "
           >
-            <div style="min-width: 0">
-              <p
+            <!-- Profile image (near 1:1) -->
+            <div
+              style="
+                position: relative;
+                width: 300px;
+                aspect-ratio: 1 / 1;
+                flex-shrink: 0;
+                border-radius: 20px;
+                overflow: hidden;
+              "
+            >
+              <img
+                src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=700&h=700&fit=crop"
+                style="width: 100%; height: 100%; object-fit: cover"
+                alt="Counseling session"
+              />
+              <div
                 style="
-                  font-size: 13px;
-                  font-weight: 600;
-                  color: #7c3aed;
-                  margin-bottom: 6px;
+                  position: absolute;
+                  inset: 0;
+                  background: linear-gradient(
+                    180deg,
+                    rgba(15, 15, 26, 0) 55%,
+                    rgba(15, 15, 26, 0.55) 100%
+                  );
                 "
-              >
-                Didi Hirsch Mental Health Services
-              </p>
-              <h1
+              ></div>
+              <span
                 style="
-                  font-size: 34px;
-                  font-weight: 800;
-                  color: #0f0f1a;
-                  line-height: 1.1;
-                  margin-bottom: 10px;
-                "
-              >
-                Youth Counseling &amp; Crisis Support
-              </h1>
-              <p
-                style="
-                  font-size: 15px;
-                  color: #6b7280;
-                  line-height: 1.6;
-                  max-width: 560px;
-                "
-              >
-                Free, judgment-free counseling for LA County youth. Talk to
-                someone who gets it — in person, by phone, or on video.
-              </p>
-            </div>
-            <div style="display: flex; gap: 10px; flex-shrink: 0">
-              <a
-                href="#"
-                style="
-                  display: flex;
-                  align-items: center;
-                  gap: 8px;
-                  padding: 12px 22px;
-                  background: #4930d0;
+                  position: absolute;
+                  top: 16px;
+                  left: 16px;
+                  background: #7c3aed;
                   color: white;
-                  border-radius: 10px;
+                  font-size: 12px;
                   font-weight: 700;
-                  font-size: 14px;
-                  text-decoration: none;
+                  padding: 5px 13px;
+                  border-radius: 9999px;
                 "
+                >Mental Health</span
               >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
-                  <path
-                    d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
-                  />
-                </svg>
-                Call Now
-              </a>
-              <button
+              <span
                 style="
-                  width: 46px;
-                  height: 46px;
-                  border: 1.5px solid #e5e7eb;
-                  border-radius: 10px;
-                  background: white;
+                  position: absolute;
+                  bottom: 16px;
+                  left: 16px;
+                  background: rgba(255, 255, 255, 0.92);
+                  color: #0d9488;
+                  font-size: 12px;
+                  font-weight: 700;
+                  padding: 5px 13px;
+                  border-radius: 9999px;
                   display: flex;
                   align-items: center;
-                  justify-content: center;
-                  cursor: pointer;
+                  gap: 6px;
                 "
-                title="Save"
               >
-                <svg
-                  width="17"
-                  height="17"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#6B7280"
-                  stroke-width="2"
+                <span
+                  style="
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: #0d9488;
+                    display: inline-block;
+                  "
+                ></span
+                >Open now · until 8 PM
+              </span>
+            </div>
+
+            <!-- Title, description, actions -->
+            <div
+              style="
+                flex: 1;
+                min-width: 320px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-self: stretch;
+              "
+            >
+              <div>
+                <p
+                  style="
+                    font-size: 13px;
+                    font-weight: 600;
+                    color: #7c3aed;
+                    margin-bottom: 6px;
+                  "
                 >
-                  <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" />
-                </svg>
-              </button>
-              <button
+                  Didi Hirsch Mental Health Services
+                </p>
+                <h1
+                  style="
+                    font-size: 34px;
+                    font-weight: 800;
+                    color: #0f0f1a;
+                    line-height: 1.1;
+                    margin-bottom: 10px;
+                  "
+                >
+                  Youth Counseling &amp; Crisis Support
+                </h1>
+                <p
+                  style="
+                    font-size: 15px;
+                    color: #6b7280;
+                    line-height: 1.6;
+                    max-width: 560px;
+                  "
+                >
+                  Free, judgment-free counseling for LA County youth. Talk to
+                  someone who gets it — in person, by phone, or on video.
+                </p>
+              </div>
+              <div
                 style="
-                  width: 46px;
-                  height: 46px;
-                  border: 1.5px solid #e5e7eb;
-                  border-radius: 10px;
-                  background: white;
                   display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  cursor: pointer;
+                  gap: 10px;
+                  flex-shrink: 0;
+                  margin-top: 20px;
                 "
-                title="Share"
               >
-                <svg
-                  width="17"
-                  height="17"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#6B7280"
-                  stroke-width="2"
+                <a
+                  href="#"
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    padding: 12px 22px;
+                    background: #4930d0;
+                    color: white;
+                    border-radius: 10px;
+                    font-weight: 700;
+                    font-size: 14px;
+                    text-decoration: none;
+                  "
                 >
-                  <circle cx="18" cy="5" r="3" />
-                  <circle cx="6" cy="12" r="3" />
-                  <circle cx="18" cy="19" r="3" />
-                  <path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4" />
-                </svg>
-              </button>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
+                    <path
+                      d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+                    />
+                  </svg>
+                  Call Now
+                </a>
+                <button
+                  style="
+                    width: 46px;
+                    height: 46px;
+                    border: 1.5px solid #e5e7eb;
+                    border-radius: 10px;
+                    background: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                  "
+                  title="Save"
+                >
+                  <svg
+                    width="17"
+                    height="17"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#6B7280"
+                    stroke-width="2"
+                  >
+                    <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" />
+                  </svg>
+                </button>
+                <button
+                  style="
+                    width: 46px;
+                    height: 46px;
+                    border: 1.5px solid #e5e7eb;
+                    border-radius: 10px;
+                    background: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                  "
+                  title="Share"
+                >
+                  <svg
+                    width="17"
+                    height="17"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#6B7280"
+                    stroke-width="2"
+                  >
+                    <circle cx="18" cy="5" r="3" />
+                    <circle cx="6" cy="12" r="3" />
+                    <circle cx="18" cy="19" r="3" />
+                    <path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4" />
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
+
           <!-- Quick facts strip -->
           <div
             style="
@@ -421,6 +442,7 @@
               gap: 0;
               border-top: 1px solid #f3f4f6;
               border-bottom: 1px solid #f3f4f6;
+              margin-top: 24px;
             "
           >
             <div
