@@ -58,13 +58,51 @@ input:focus{outline:none}
       Real Support.<br>Real Opportunities.<br>
       <span style="background:linear-gradient(100deg,#7C3AED 0%,#E8456A 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">Your Future.</span>
     </h1>
-    <p style="font-size:16px;color:#6B7280;margin:22px 0 32px;line-height:1.7">Find free and low-cost resources in LA County designed for you.</p>
-    <div style="display:flex;border:2px solid #E5E7EB;border-radius:12px;overflow:hidden;background:white;box-shadow:0 2px 16px rgba(73,48,208,.10)">
-      <div style="display:flex;align-items:center;gap:10px;padding:0 16px;flex:1">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="#9CA3AF"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-        <input placeholder="Search for help (e.g. housing, jobs, mental health)" style="flex:1;border:none;font-size:14px;font-family:inherit;color:#374151;padding:15px 0;background:transparent"/>
+    <p style="font-size:16px;color:#6B7280;margin:22px 0 24px;line-height:1.7">Find free and low-cost resources in LA County designed for you.</p>
+    <!-- FILTERABLE SEARCH CARD -->
+    <div style="background:white;border:1.5px solid #E5E7EB;border-radius:16px;padding:18px;box-shadow:0 6px 28px rgba(73,48,208,.12)">
+      <div style="display:flex;align-items:center;gap:10px;border:1.5px solid #E5E7EB;border-radius:11px;padding:0 14px;margin-bottom:12px">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="#9CA3AF"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        <input placeholder="Search by keyword (e.g. anxiety, resume help)" style="flex:1;border:none;font-size:14px;font-family:inherit;color:#374151;padding:14px 0;background:transparent"/>
       </div>
-      <button style="padding:0 26px;background:#4930D0;color:white;border:none;font-weight:700;font-size:14px;cursor:pointer;font-family:inherit;white-space:nowrap">Search</button>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:14px">
+        <div>
+          <label style="display:block;font-size:11px;font-weight:700;color:#6B7280;letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px">Service Type</label>
+          <select style="width:100%;font-size:13.5px;font-family:inherit;border:1.5px solid #E5E7EB;border-radius:9px;padding:11px 12px;color:#374151;background:white;cursor:pointer;appearance:none;background-image:url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2210%22 height=%2210%22><path d=%22M2 3.5L5 6.5L8 3.5%22 stroke=%22%236B7280%22 stroke-width=%221.5%22 fill=%22none%22 stroke-linecap=%22round%22/></svg>');background-repeat:no-repeat;background-position:right 12px center">
+            <option>All Services</option>
+            <option>Mental Health</option>
+            <option>Jobs &amp; Career</option>
+            <option>Housing</option>
+            <option>Education</option>
+            <option>Legal &amp; Safety</option>
+            <option>Food &amp; Basic Needs</option>
+          </select>
+        </div>
+        <div>
+          <label style="display:block;font-size:11px;font-weight:700;color:#6B7280;letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px">Age Range</label>
+          <select style="width:100%;font-size:13.5px;font-family:inherit;border:1.5px solid #E5E7EB;border-radius:9px;padding:11px 12px;color:#374151;background:white;cursor:pointer;appearance:none;background-image:url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2210%22 height=%2210%22><path d=%22M2 3.5L5 6.5L8 3.5%22 stroke=%22%236B7280%22 stroke-width=%221.5%22 fill=%22none%22 stroke-linecap=%22round%22/></svg>');background-repeat:no-repeat;background-position:right 12px center">
+            <option>Any Age</option>
+            <option>12 – 15</option>
+            <option>16 – 18</option>
+            <option>19 – 21</option>
+            <option>22 – 25</option>
+          </select>
+        </div>
+        <div>
+          <label style="display:block;font-size:11px;font-weight:700;color:#6B7280;letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px">Format</label>
+          <select style="width:100%;font-size:13.5px;font-family:inherit;border:1.5px solid #E5E7EB;border-radius:9px;padding:11px 12px;color:#374151;background:white;cursor:pointer;appearance:none;background-image:url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2210%22 height=%2210%22><path d=%22M2 3.5L5 6.5L8 3.5%22 stroke=%22%236B7280%22 stroke-width=%221.5%22 fill=%22none%22 stroke-linecap=%22round%22/></svg>');background-repeat:no-repeat;background-position:right 12px center">
+            <option>Any Format</option>
+            <option>In-person</option>
+            <option>Video</option>
+            <option>Phone</option>
+            <option>Online / Self-serve</option>
+          </select>
+        </div>
+      </div>
+      <button style="width:100%;padding:13px;background:#4930D0;color:white;border:none;border-radius:9px;font-weight:700;font-size:14.5px;cursor:pointer;font-family:inherit;white-space:nowrap;display:flex;align-items:center;justify-content:center;gap:8px">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        Search
+      </button>
     </div>
   </div>
 
